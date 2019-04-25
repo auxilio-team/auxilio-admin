@@ -17,10 +17,9 @@
                   <VCard class="elevation-12">
                     <VToolbar>
                       <VSpacer />
-                      <VToolbarTitle>
+                      <VToolbarTitle style="margin-bottom: 200px">
                         <img src="@/assets/logo.png" height="64" alt />
                       </VToolbarTitle>
-                      <span class="text-xs-center primary--text display-1">Auxillio</span>
                       <VSpacer />
                     </VToolbar>
                     <VCardText>
