@@ -17,8 +17,9 @@
                   <VCard class="elevation-12">
                     <VToolbar>
                       <VSpacer />
-                      <VToolbarTitle style="margin-bottom: 200px">
+                      <VToolbarTitle style="margin-bottom: 150px">
                         <img src="@/assets/logo.png" height="64" alt />
+                        <p style="color: white">Please login to proceed.</p>
                       </VToolbarTitle>
                       <VSpacer />
                     </VToolbar>
