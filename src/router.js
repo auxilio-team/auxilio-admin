@@ -13,7 +13,7 @@ import UserUpdate from '@/components/users/UserUpdate.vue';
 import PostCategoryList from '@/components/post-categories/PostCategoryList.vue';
 import PostCategoryCreate from '@/components/post-categories/PostCategoryCreate.vue';
 import PostCategoryUpdate from '@/components/post-categories/PostCategoryUpdate.vue';
-
+import AgendaArchiveList from '@/components/agenda-archive/AgendaArchiveList.vue';
 import AuthService from './services/auth.service';
 
 Vue.use(Router);
@@ -70,6 +70,11 @@ const router = new Router({
           path: 'issues',
           name: 'issue-list',
           component: IssueList
+        },
+        {
+          path: 'agenda-archive',
+          name: 'agenda-archive-list',
+          component: AgendaArchiveList
         }
       ]
     },

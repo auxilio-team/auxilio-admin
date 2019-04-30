@@ -81,6 +81,11 @@ export default {
           title: 'Issues',
           icon: 'note',
           path: '/issues'
+        },
+        {
+          title: 'Agenda Archive',
+          icon: 'note',
+          path: '/agenda-archive'
         }
       ]
     };
