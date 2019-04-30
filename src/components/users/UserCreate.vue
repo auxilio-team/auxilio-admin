@@ -70,7 +70,12 @@
                     />
                   </VFlex>
                   <VFlex xs5 offset-xs1>
-                    <CountrySelect v-model="item.country" :country="country" top-country="US" />
+                    <CountrySelect
+                      v-model="item.country"
+                      :country="country"
+                      top-country="US"
+                      style="width: 100%;height: 55px;background: #fff;box-shadow: -1px 1px 0px 0px #888;cursor:pointer"
+                    />
                   </VFlex>
                 </VLayout>
 
@@ -97,7 +102,7 @@
                     />
                   </VFlex>
                   <VFlex xs5 offset-xs1>
-                     <VSelect
+                    <VSelect
                       :error-messages="errors.collect('role')"
                       v-validate="'required'"
                       name="role"
