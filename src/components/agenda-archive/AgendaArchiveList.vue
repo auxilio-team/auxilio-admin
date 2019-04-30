@@ -53,7 +53,7 @@
                       <td>{{ subTopic.title }}</td>
                       <table>
                         <tr v-for="feedback of subTopic.feedbacks" :key="feedback.id">
-                          <td>{{ feedback.body }}</td>
+                          <td><VIcon>comment</VIcon>{{ feedback.body }}</td>
                         </tr>
                       </table>
                     </tr>
@@ -93,8 +93,7 @@ export default {
       headers: [
         { textKey: '#', value: 'id', sortable: false },
         { textKey: 'Agenda', value: 'title' },
-        { textKey: 'SubTopic', value: 'subTopics' },
-        { textKey: 'Feedback', value: 'feedbacks' }
+        { textKey: 'SubTopic', value: 'subTopics' }
       ]
     };
   },

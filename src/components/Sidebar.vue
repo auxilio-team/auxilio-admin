@@ -84,7 +84,7 @@ export default {
         },
         {
           title: 'Agenda Archive',
-          icon: 'note',
+          icon: 'archive',
           path: '/agenda-archive'
         }
       ]
